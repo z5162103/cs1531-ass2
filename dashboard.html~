@@ -1,0 +1,49 @@
+<!doctype html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<body>
+
+    <header>     
+        <h1> Welcome to UNSW EMS </h1>
+    </header>
+    <nav> </nav>
+    <div>
+    <ul>
+        <li> Home </li>
+        <li> News </li>
+        <li> Events
+            <ul>
+                <li> My events </li>
+                <li> Open events </li>
+            </ul>
+        </li>
+        <li> Help </li>
+    </ul>
+    </div>
+    <div>
+    </br>
+    </br>
+    <h2> DashBoard </h2>
+    </div>
+<!--        <h3> Announcements </h3> -->
+        <table>
+            <tr>
+                <td class="announcement"> Announcements </td>
+                <td class="upcoming_events"> Upcoming Events</td>
+            </tr>
+        </table>
+            <table>
+                <td>
+                    <tr>
+                        <td class="announcement_cell"> This is the announcement cell.</td>
+                        <td class="upcoming_events_cell">This is the upcoming events cell.</td>
+                    </tr>
+                </td>
+            </table>
+    
+    <footer>
+        <p> Call 999 for help </p>
+    </footer>
+</body>
+-->
