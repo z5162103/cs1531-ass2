@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<!-- add the nav bar-->
+<!-- this is for staff who want to check out the events they are convenoring -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<body>
+
+    <header>
+        <button style="float: right; padding: 10px"> logout </button>
+        <h1> Welcome to UNSW EMS </h1>
+    </header>
+    <nav> </nav>
+    <div>
+    <ul>
+        <li> <a href="dashboard.html">Home</a></li>
+        <li> <a href="#">News</a></li>
+        <li> Events
+            <ul>
+                <li> <a href="my_events.html"> My events </a> </li>
+                <li> <a href="open_events.html">Open events</a> </li>
+            </ul>
+        </li>
+        <li> <a href="help.html">Help</a> </li>
+    </ul>
+    </div>
+
+<div>
+    <h3> Event list </h3>
+</div>
+
+<div>
+    <table style="width:100%">
+        <tr class="tr1">
+            <td>
+                <p> Name of event </p> </br>
+                <p> Registration date: </p> </br>
+                <p> Deregistration date: </p> </br>
+            </td>
+            <td>
+                <div class="side_button">
+                  <button onclick="on()">edit</button>
+                </div>
+            </br></br></br>
+            <div class="side_button">
+                <p> No. spots left </p>
+            </div>
+        </br></br></br></br>
+            <div class="side_button">
+                <button onclick="on1()"> Attendee list </button>
+            </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- stuff in overlay -->
+<div id="overlay">
+    <button style="float: right"; onclick="off()"> take me back </button>
+  <div id="text">
+      <form method="POST">
+          <p> New event name </p>
+          <div class="input1"><input name="event_name" placeholder="Event Name"/> </div>
+          <p> New starting date </p>
+          <input name="start_date" placeholder="Start Date"/>
+          <p> New deregistration date </p>
+          <input name="deregistration_date" placeholder="Deregistration date"/>
+      </br>
+          <button type="submit"> Submit </button>
+      </form>
+  </div>
+</div>
+<div id="overlay1">
+    <button style="float: right"; onclick="off1()"> take me back </button>
+  <div id="text">
+    <p> hello there </p> </br>
+    <p> add the attendee list here </p>
+  </div>
+
+</div>
+
+
+<!-- https://www.w3schools.com/howto/howto_css_overlay.asp -->
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+function on1() {
+    document.getElementById("overlay1").style.display = "block";
+}
+
+function off1() {
+    document.getElementById("overlay1").style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+body {
+    height: cover;
+    width: cover;
+    color: black;
+    background-size: cover;
+
+}
+
+p {
+    color: black;
+}
+
+nav {
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    color: blue;
+    list-style: none;
+}
+
+ul li {
+    color: white;
+    float: left;
+    width: 25%;
+    height: 40px;
+    background-color: black;
+    opacity: 0.8;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li:hover {
+    background-color: blue;
+}
+
+ul li ul li {
+    display: none;
+    width: 100%;
+    color: white;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.announcement {
+    color: blue;
+    font-size: 25px;
+    padding-right: 893px;
+}
+.upcoming_events {
+    color: blue;
+    font-size: 25px;
+}
+
+.announcement_cell {
+    width: 85%;
+    height: 1000px;
+    border: 1px solid blue;
+}
+
+.upcoming_events_cell {
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+}
+
+.dashboard {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.p_label_1{
+     float: right;
+     padding: 10px;
+}
+
+.p_label_2{
+    float: left;
+    margin: 0px;
+}
+
+.image_1 img{
+    image-orientation: width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.registration_button a{
+    text-decoration: none;
+    color: black;
+    target:_blank;
+    padding: 10px;
+}
+
+table tr td .edit_button {
+    float: right;
+
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+
+}
+
+#overlay1 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#text p {
+    color: white;
+    padding: 0px;
+}
+
+.input1 {
+    margin: 5px;
+}
+
+.side_button {
+    padding:5px;
+    float: right;
+}
